@@ -188,20 +188,55 @@
   {
     "id": "quote",
     "fields": [
-       {
-         "component": "richtext",
-         "name": "quote",
-         "value": "",
-         "label": "Quote",
-         "valueType": "string"
-       },
-       {
-         "component": "text",
-         "valueType": "string",
-         "name": "author",
-         "label": "Author",
-         "value": ""
-       }
-     ]
-  }  
+      {
+        "component": "richtext",
+        "name": "quote",
+        "value": "",
+        "label": "Quote",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "author",
+        "label": "Author",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "image-variant",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "select",
+        "name": "size",
+        "label": "Size",
+        "options": [
+          {
+            "name": "S",
+            "value": "s"
+          },
+          {
+            "name": "M",
+            "value": "m"
+          },
+          {
+            "name": "L",
+            "value": "l"
+          },
+          {
+            "name": "XL",
+            "value": "xl"
+          }         
+        ]
+      }
+    ]
+  }
 ]
