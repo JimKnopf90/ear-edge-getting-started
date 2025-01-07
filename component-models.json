@@ -63,12 +63,7 @@
         "component": "aem-content",
         "name": "link",
         "label": "Link"
-      },
-      {
-        "component": "text",       
-        "name": "imageAlt",
-        "label": "Alt"
-      },
+      },       
       {
         "component": "text",
         "name": "linkText",
@@ -253,6 +248,13 @@
         "name": "image",
         "label": "Article Image",
         "multi": false
+      },
+      {
+        "component": "text-input",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
       },
       {
         "component": "text",
