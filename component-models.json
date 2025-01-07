@@ -285,17 +285,10 @@
             "name": "articleTitle",
             "label": "Title",
             "value": ""
-          },
-          {
-            "component": "text",
-            "valueType": "string",
-            "name": "articleText",
-            "label": "Text",
-            "value": ""
-          },
+          },          
           {
             "component": "richtext",
-            "name": "text",
+            "name": "articleText",
             "value": "",
             "label": "Text",
             "valueType": "string"
