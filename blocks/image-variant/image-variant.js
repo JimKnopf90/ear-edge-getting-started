@@ -7,6 +7,8 @@
  */
 
 export default function decorate(block) {
+    console.log('decorate image-variant');
+    console.log(block);
     // Füge eine Grundklasse hinzu, um spätere Styles gezielt anzusprechen
     block.classList.add('image-variant');
   
