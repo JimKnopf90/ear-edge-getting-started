@@ -1,12 +1,18 @@
 .article-center {
-  text-align: center;
+    text-align: center;
 }
 
-.article-center img {  
+.article-center img {
     height: auto;
-    max-height: 200px;  
+    max-height: 200px;
 }
 
 p[data-aue-prop="articleHeadline"] {
     font-size: 1.25rem;
-  }
+}
+
+p[data-aue-prop="articleTitle"] {
+    font-weight: 300;
+    font-size: 2.75rem;
+    margin: 0 0 2rem 0;
+}
