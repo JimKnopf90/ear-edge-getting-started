@@ -305,13 +305,13 @@
           {
             "component": "text",
             "valueType": "string",
-            "name": "buttonText",
+            "name": "ctaText",
             "label": "CTA Text",
             "value": ""
           },
           {
             "component": "text",
-            "name": "link",
+            "name": "ctaLink",
             "label": "CTA Link"
           }
         ]
