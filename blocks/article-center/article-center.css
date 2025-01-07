@@ -1,3 +1,8 @@
 .article-center {
   text-align: center;
 }
+
+.article-center img {  
+    height: auto;
+    max-height: 200px;  
+}
