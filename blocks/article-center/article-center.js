@@ -1,6 +1,6 @@
 export default function decorate(block) {
     const ctaText = block.querySelector('p[data-aue-prop="ctaText"]');
-    const ctaLink = block.querySelector('p[data-aue-prop="ctaLink"]');
+    const ctaLink = block.querySelector('.article-center a');
 
     console.log(ctaText)
     console.log(ctaLink)
