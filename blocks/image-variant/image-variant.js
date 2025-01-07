@@ -12,9 +12,14 @@ export default function decorate(block) {
     // Füge eine Grundklasse hinzu, um spätere Styles gezielt anzusprechen
     block.classList.add('image-variant');
   
-    // Lies den Wert für die Bildgröße aus, z.B. aus data-size
-    const size = block.getAttribute('data-size') || 'm'; // Fallback: 'm'
-    
+    const sizeElement = block.querySelector('p[data-aue-prop="size"]');
+
+    // Falls das Element vorhanden ist, lies den Text-Inhalt aus
+    let size = 'm'; // Fallback-Wert oder Standardwert
+    if (sizeElement) {
+      size = sizeElement.textContent.trim(); // "l" in deinem Beispiel
+    }
+    console.log(size);
     // Normalisiere den Wert auf Kleinbuchstaben
     const normalizedSize = size.toLowerCase();
   
