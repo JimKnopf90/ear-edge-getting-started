@@ -65,6 +65,13 @@
         "label": "Link"
       },
       {
+        "component": "text-input",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
         "component": "text",
         "name": "linkText",
         "label": "Text"
