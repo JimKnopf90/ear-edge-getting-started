@@ -266,62 +266,98 @@
         ]
       },
       {
-        "component": "text",
-        "valueType": "string",
-        "name": "articleHeadline",
-        "label": "Headline",
-        "value": ""
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "articleTitle",
-        "label": "Title",
-        "value": ""
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "articleText",
+        "component": "container",
         "label": "Text",
-        "value": ""
-      },
-      {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
+        "name": "textContainer",
         "valueType": "string",
-        "name": "buttonText",
-        "label": "CTA Text",
-        "value": ""
-      },
-      {
-        "component": "text",
-        "name": "link",
-        "label": "CTA Link"
-      },
-      {
-        "component": "text",
-        "name": "link",
-        "label": "Youtube Link"
-      },
-      {
-        "component": "select",
-        "name": "background",
-        "label": "Background",
-        "options": [
+        "collapsible": true,
+        "fields": [
           {
-            "name": "Grey",
-            "value": "grey"
+            "component": "text",
+            "valueType": "string",
+            "name": "articleHeadline",
+            "label": "Headline",
+            "value": ""
           },
           {
-            "name": "White",
-            "value": "white"
+            "component": "text",
+            "valueType": "string",
+            "name": "articleTitle",
+            "label": "Title",
+            "value": ""
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "articleText",
+            "label": "Text",
+            "value": ""
+          },
+          {
+            "component": "richtext",
+            "name": "text",
+            "value": "",
+            "label": "Text",
+            "valueType": "string"
+          }
+        ]
+      },
+      {
+        "component": "container",
+        "label": "CTA",
+        "name": "ctaContainer",
+        "valueType": "string",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "buttonText",
+            "label": "CTA Text",
+            "value": ""
+          },
+          {
+            "component": "text",
+            "name": "link",
+            "label": "CTA Link"
+          }
+        ]
+      },
+      {
+        "component": "container",
+        "label": "Video",
+        "name": "videoContainer",
+        "valueType": "string",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "text",
+            "name": "link",
+            "label": "Youtube Link"
+          }
+        ]
+      },
+      {
+        "component": "container",
+        "label": "Additional settings",
+        "name": "additionalSettingsContainer",
+        "valueType": "string",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "select",
+            "name": "background",
+            "label": "Background",
+            "options": [
+              {
+                "name": "Grey",
+                "value": "grey"
+              },
+              {
+                "name": "White",
+                "value": "white"
+              }
+            ]
           }
         ]
       }
