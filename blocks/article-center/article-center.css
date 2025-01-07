@@ -25,12 +25,11 @@ p[data-aue-prop="articleText"] {
 
 .article-center a { 
     display: inline-block;
-    padding: 12px 24px;
+    padding: 4px 28px;
     background-color: #50e3c2;
     border-color: #50e3c2;
     color: #203367;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 16px;    
     text-align: center;
     text-decoration: none;
     transition: all .2s ease-out;
