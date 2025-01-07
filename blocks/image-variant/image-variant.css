@@ -1,0 +1,41 @@
+.block.image-variant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.image-wrapper {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-wrapper img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Size variations */
+.image-size-s {
+    width: 100px;
+    height: auto;
+}
+
+.image-size-m {
+    width: 200px;
+    height: auto;
+}
+
+.image-size-l {
+    width: 400px;
+    height: auto;
+}
+
+.image-size-xl {
+    width: 600px;
+    height: auto;
+}
