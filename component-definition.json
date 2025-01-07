@@ -154,10 +154,7 @@
                 "template": {
                   "name": "Article Center",
                   "model": "article-center",
-                  "link": "https://www.adobe.com",
-                  "linkTitle": "Navigate to adobe.com",
-                  "linkText": "adobe.com",
-                  "linkType": "primary"             
+                  "link": "<p>Welcome to AEM</p>"        
                 }
               }
             }
