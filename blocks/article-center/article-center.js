@@ -2,9 +2,6 @@ export default function decorate(block) {
     const ctaText = block.querySelector('p[data-aue-prop="ctaText"]');
     const ctaLink = block.querySelector('.article-center a');
 
-    console.log(ctaText)
-    console.log(ctaLink)
-
     if (ctaText && ctaLink) {
         const linkUrl = ctaLink.textContent.trim();
         const linkElement = document.createElement('a');
@@ -14,9 +11,8 @@ export default function decorate(block) {
         linkElement.target = '_blank';
         linkElement.rel = 'noopener noreferrer';
 
-        console.log(linkElement)
-
         ctaText.replaceWith(linkElement);
+        ctaLink.remove();
     }
    
   }
