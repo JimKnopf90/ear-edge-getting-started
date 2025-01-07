@@ -2,6 +2,9 @@ export default function decorate(block) {
     const ctaText = block.querySelector('p[data-aue-prop="ctaText"]');
     const ctaLink = block.querySelector('p[data-aue-prop="ctaLink"]');
 
+    console.log(ctaText)
+    console.log(ctaLink)
+
     if (ctaText && ctaLink) {
         const linkUrl = ctaLink.textContent.trim();
         const linkElement = document.createElement('a');
