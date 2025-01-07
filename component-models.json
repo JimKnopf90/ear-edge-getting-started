@@ -218,6 +218,7 @@
         "component": "select",
         "name": "size",
         "label": "Size",
+        "hidden": true,
         "options": [
           {
             "name": "S",

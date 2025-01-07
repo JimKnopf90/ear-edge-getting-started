@@ -1,43 +1,27 @@
-/**
- * image-variant.css
- *
- * Beispielhafte CSS-Datei für den "image-variant"-Block.
- * Das Bild wird zentriert dargestellt. Die Größe des Bildes
- * wird anhand einer zusätzlichen CSS-Klasse gesteuert,
- * die in der JS-Datei vergeben wird (size-s, size-m, size-l, size-xl, etc.).
- */
-
-/* Grundlegendes Styling für den Block */
 .image-variant {
     width: 100%;
-    text-align: center; /* Zentriert den Inhalt horizontal */
+    text-align: center;
   }
   
-  /* Damit das Bild wirklich zentriert dargestellt wird */
   .image-variant img {
-    display: block;     /* Damit margin: 0 auto funktioniert */
-    margin: 0 auto;     /* Bild wird mittig zentriert */
-    height: auto;       /* Erhält das Seitenverhältnis */
-    /* Wenn du möchtest, dass Bilder nie die max. Breite des Blocks überschreiten: */
+    display: block;
+    margin: 0 auto;
+    height: auto;
     max-width: 100%;    
   }
   
-  /* Kleines Bild (S) */
   .image-variant.size-s img {
-    max-width: 200px; /* Beispielwerte anpassen nach Bedarf */
+    max-width: 200px;
   }
   
-  /* Mittlere Größe (M) */
   .image-variant.size-m img {
     max-width: 400px;
   }
   
-  /* Große Bilder (L) */
   .image-variant.size-l img {
     max-width: 600px;
   }
   
-  /* Extra-Große Bilder (XL) */
   .image-variant.size-xl img {
-    max-width: 1000px; /* Beispielwert für XL */
+    max-width: 1000px;
   }
