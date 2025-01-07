@@ -252,6 +252,13 @@
       {
         "component": "text",
         "valueType": "string",
+        "name": "articleHeadline",
+        "label": "Headline",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
         "name": "articleTitle",
         "label": "Title",
         "value": ""
@@ -278,12 +285,12 @@
         "value": ""
       },
       {
-        "component": "aem-content",
+        "component": "text",
         "name": "link",
         "label": "CTA Link"
       },
       {
-        "component": "aem-content",
+        "component": "text",
         "name": "link",
         "label": "Youtube Link"
       },
