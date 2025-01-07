@@ -247,7 +247,7 @@
         "label": "Image",
         "name": "imageContainer",
         "valueType": "string",
-        "collapsible": true,
+        "collapsible": false,
         "fields": [
           {
             "component": "reference",
@@ -270,7 +270,7 @@
         "label": "Text",
         "name": "textContainer",
         "valueType": "string",
-        "collapsible": true,
+        "collapsible": false,
         "fields": [
           {
             "component": "text",
@@ -307,7 +307,7 @@
         "label": "CTA",
         "name": "ctaContainer",
         "valueType": "string",
-        "collapsible": true,
+        "collapsible": false,
         "fields": [
           {
             "component": "text",
@@ -328,7 +328,7 @@
         "label": "Video",
         "name": "videoContainer",
         "valueType": "string",
-        "collapsible": true,
+        "collapsible": false,
         "fields": [
           {
             "component": "text",
