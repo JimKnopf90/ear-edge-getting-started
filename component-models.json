@@ -63,7 +63,7 @@
         "component": "aem-content",
         "name": "link",
         "label": "Link"
-      },       
+      },
       {
         "component": "text",
         "name": "linkText",
@@ -234,7 +234,7 @@
           {
             "name": "XL",
             "value": "xl"
-          }         
+          }
         ]
       }
     ]
@@ -243,18 +243,27 @@
     "id": "article-center",
     "fields": [
       {
-        "component": "reference",
+        "component": "container",
+        "label": "Image",
+        "name": "imageContainer",
         "valueType": "string",
-        "name": "image",
-        "label": "Article Image",
-        "multi": false
-      },
-      {
-        "component": "text-input",
-        "valueType": "string",
-        "name": "imageAlt",
-        "label": "Alt",
-        "value": ""
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "reference",
+            "valueType": "string",
+            "name": "image",
+            "label": "Article Image",
+            "multi": false
+          },
+          {
+            "component": "text-input",
+            "valueType": "string",
+            "name": "imageAlt",
+            "label": "Alt",
+            "value": ""
+          }
+        ]
       },
       {
         "component": "text",
@@ -313,7 +322,7 @@
           {
             "name": "White",
             "value": "white"
-          }               
+          }
         ]
       }
     ]
