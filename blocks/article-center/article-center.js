@@ -14,11 +14,11 @@ export default function decorate(block) {
         ctaText.replaceWith(linkElement);
         ctaLink.remove();
 
-        embedYouTubeVideo();
+        embedYouTubeVideo(block);
     }   
   }
 
-  function embedYouTubeVideo() {
+  function embedYouTubeVideo(block) {
     
     const youtubeLink = block.querySelector('p[data-aue-prop="youTubeLink"]');
 
