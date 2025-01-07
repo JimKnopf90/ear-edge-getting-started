@@ -325,7 +325,7 @@
         "fields": [
           {
             "component": "text",
-            "name": "link",
+            "name": "youTubeLink",
             "label": "Youtube Link"
           }
         ]

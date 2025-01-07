@@ -13,6 +13,25 @@ export default function decorate(block) {
 
         ctaText.replaceWith(linkElement);
         ctaLink.remove();
-    }
-   
+
+        embedYouTubeVideo();
+    }   
   }
+
+  function embedYouTubeVideo() {
+    
+    const youtubeLink = block.querySelector('p[data-aue-prop="youTubeLink"]');
+
+    if (youtubeLink) {
+        const iframe = document.createElement('iframe');
+        iframe.src = `https://www.youtube.com/embed/${youtubeLink.textContent.trim()}`;
+        iframe.width = '560'; // Breite des Videos
+        iframe.height = '315'; // Höhe des Videos
+        iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+        iframe.allowFullscreen = true; // Ermöglicht Vollbildmodus
+
+        youtubeLink.replaceWith(iframe);
+    } else {
+        console.error('Container not found');
+    }
+}
