@@ -1,24 +1,26 @@
 
 export default function decorate(block) {
-    // const ctaText = block.querySelector('p[data-aue-prop="ctaText"]');
-    // const ctaLink = block.querySelector('.article-center a');
+    const ctaText = block.querySelector('p[data-aue-prop="ctaText"]');
+    const ctaLink = block.querySelector('.article-center a');
 
-    const [
-        articleImage,
-        articleAltText,
-        headline,
-        title,
-        text,
-        ctaText,
-        ctaLink,
-        youtubeLink,
-        background
-    ] = [...block.children];
+    // const [
+    //     articleImage,
+    //     articleAltText,
+    //     headline,
+    //     title,
+    //     text,
+    //     ctaText,
+    //     ctaLink,
+    //     youtubeLink,
+    //     background
+    // ] = [...block.children];
 
     console.log(ctaText);
+    ctaText.className = 'cta-text';
+
 
     if (ctaText && ctaLink) {
-        ctaText.className = 'cta-text';
+       
         const linkUrl = ctaLink.textContent.trim();
         const linkElement = document.createElement('a');
 
