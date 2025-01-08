@@ -4,8 +4,15 @@ export default function decorate(block) {
     // const ctaLink = block.querySelector('.article-center a');
 
     const [
+        articleImage,
+        articleAltText,
+        headline,
+        title,
+        text,
         ctaText,
-        ctaLink
+        ctaLink,
+        youtubeLink,
+        background
     ] = [...block.children];
 
     console.log(ctaText);
