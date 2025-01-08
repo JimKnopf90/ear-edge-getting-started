@@ -154,7 +154,8 @@
                 "template": {
                   "name": "Article Center",
                   "model": "article-center",
-                  "articleImageAlt": "Biff Tannen"                
+                  "articleHeadline": "Getting started",
+                  "articleHeadlineType": "h2"             
                 }
               }
             }
