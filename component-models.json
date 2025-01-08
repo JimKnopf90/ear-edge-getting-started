@@ -368,5 +368,20 @@
         "condition": { "===": [{"var" : "reveal"}, true] }
       }
     ]
+  },
+  {
+    "id": "header-text",
+    "fields": [
+      {
+        "component": "text",
+        "name": "heading",
+        "label": "Heading"
+      },
+      {
+        "component": "text",
+        "name": "text",
+        "label": "Text"
+      }
+    ]
   }
 ]
