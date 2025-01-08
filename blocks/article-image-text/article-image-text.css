@@ -44,10 +44,15 @@
 .article-image {
   max-width: 100%;
   height: auto;
+  order: 2; /* Ensure the image is on the right side */
 }
 
 @media (max-width: 768px) {
   .article-image-text-block {
     flex-direction: column;
+  }
+
+  .article-image {
+    order: 1; /* Move the image below the text on smaller screens */
   }
 }
