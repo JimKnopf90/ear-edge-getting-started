@@ -255,8 +255,14 @@
             "name": "image",
             "label": "Article Image",
             "multi": false
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "articleImageAlt",
+            "label": "Image Alt Text",
+            "value": ""
           }
-          
         ]
       },
       {
