@@ -261,7 +261,7 @@
             "valueType": "string",
             "name": "imageAlt",
             "label": "Alt",
-            "value": "Test"
+            "value": ""
           }
         ]
       },
