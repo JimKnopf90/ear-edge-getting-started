@@ -259,7 +259,7 @@
           {
             "component": "text",
             "valueType": "string",
-            "name": "imageAlt",
+            "name": "articleImageAlt",
             "label": "Image Alt Text",
             "value": ""
           }
