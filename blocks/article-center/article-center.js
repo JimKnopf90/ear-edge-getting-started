@@ -1,37 +1,41 @@
 
 export default function decorate(block) {
-    const ctaText = block.querySelector('p[data-aue-prop="ctaText"]');
-    const ctaLink = block.querySelector('.article-center a');
+    // const ctaText = block.querySelector('p[data-aue-prop="ctaText"]');
+    // const ctaLink = block.querySelector('.article-center a');
 
-    // const [
-    //     articleImage,
-    //     articleAltText,
-    //     headline,
-    //     title,
-    //     text,
-    //     ctaText,
-    //     ctaLink,
-    //     youtubeLink,
-    //     background
-    // ] = [...block.children];
+    const [
+        articleImage,
+        articleAltText,
+        headline,
+        title,
+        text,
+        ctaText,
+        ctaLink,
+        youtubeLink,
+        background
+    ] = [...block.children];
 
-    console.log(ctaText);
+    articleImage.className = 'article-image';
+    articleAltText.className = 'article-alt-text';
+    headline.className = 'headline';
+    title.className = 'title';
+    text.className = 'text';
     ctaText.className = 'cta-text';
+    ctaLink.className = 'cta-link';
+    youtubeLink.className = 'youtube-link';
+    background.className = 'background';
 
+    const linkUrl = ctaLink.textContent.trim();
+    const linkElement = document.createElement('a');
 
-    if (ctaText && ctaLink) {
-       
-        const linkUrl = ctaLink.textContent.trim();
-        const linkElement = document.createElement('a');
+    linkElement.href = linkUrl;
+    linkElement.textContent = ctaText.textContent;
+    linkElement.target = '_blank';
+    linkElement.rel = 'noopener noreferrer';
 
-        linkElement.href = linkUrl;
-        linkElement.textContent = ctaText.textContent;
-        linkElement.target = '_blank';
-        linkElement.rel = 'noopener noreferrer';
+    ctaText.replaceWith(linkElement);
+    ctaLink.remove();
 
-        ctaText.replaceWith(linkElement);
-        ctaLink.remove();
-    }
     embedYouTubeVideo(block);
 }
 
