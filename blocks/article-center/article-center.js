@@ -1,6 +1,13 @@
+import { getMetadata } from '../../scripts/aem.js';
+
 export default function decorate(block) {
     const ctaText = block.querySelector('p[data-aue-prop="ctaText"]');
     const ctaLink = block.querySelector('.article-center a');
+
+    console.block(block);
+
+    const meta = getMetadata('article-center');
+    console.log(meta);
 
     if (ctaText && ctaLink) {
         const linkUrl = ctaLink.textContent.trim();
