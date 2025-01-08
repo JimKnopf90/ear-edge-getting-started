@@ -1,0 +1,53 @@
+.article-image-text-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.article-title {
+  color: darkblue;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.article-subtitle {
+  color: black;
+  font-size: 14px;
+}
+
+.article-description {
+  color: black;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.article-bullet-points {
+  list-style: none;
+  padding: 0;
+}
+
+.article-bullet-points li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.article-bullet-points li .icon {
+  color: green;
+}
+
+.article-bullet-points li .text {
+  color: black;
+  font-size: 14px;
+}
+
+.article-image {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .article-image-text-block {
+    flex-direction: column;
+  }
+}

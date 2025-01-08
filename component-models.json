@@ -383,5 +383,48 @@
         "label": "Text"
       }
     ]
+  },
+  {
+    "id": "article-image-text",
+    "fields": [
+      {
+        "component": "text",
+        "name": "title",
+        "label": "Title"
+      },
+      {
+        "component": "text",
+        "name": "subtitle",
+        "label": "Subtitle"
+      },
+      {
+        "component": "richtext",
+        "name": "description",
+        "label": "Description Text"
+      },
+      {
+        "component": "list",
+        "name": "bulletPoints",
+        "label": "Bullet Points",
+        "fields": [
+          {
+            "component": "icon",
+            "name": "icon",
+            "label": "Icon"
+          },
+          {
+            "component": "text",
+            "name": "text",
+            "label": "Text"
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      }
+    ]
   }
 ]
