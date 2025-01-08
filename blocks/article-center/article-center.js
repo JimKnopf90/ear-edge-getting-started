@@ -1,18 +1,20 @@
-import { getMetadata } from '../../scripts/aem.js';
 
 export default function decorate(block) {
-    const ctaText = block.querySelector('p[data-aue-prop="ctaText"]');
-    const ctaLink = block.querySelector('.article-center a');
+    // const ctaText = block.querySelector('p[data-aue-prop="ctaText"]');
+    // const ctaLink = block.querySelector('.article-center a');
 
-    console.log(block);
+    const [
+        ctaText,
+        ctaLink
+    ] = [...block.children];
 
-    const meta = getMetadata('article-center');
-    console.log(meta);
+    console.log(ctaText);
 
     if (ctaText && ctaLink) {
+        ctaText.className = 'cta-text';
         const linkUrl = ctaLink.textContent.trim();
         const linkElement = document.createElement('a');
-        
+
         linkElement.href = linkUrl;
         linkElement.textContent = ctaText.textContent;
         linkElement.target = '_blank';
@@ -20,13 +22,12 @@ export default function decorate(block) {
 
         ctaText.replaceWith(linkElement);
         ctaLink.remove();
+    }
+    embedYouTubeVideo(block);
+}
 
-        embedYouTubeVideo(block);
-    }   
-  }
+function embedYouTubeVideo(block) {
 
-  function embedYouTubeVideo(block) {
-    
     const youtubeLink = block.querySelector('p[data-aue-prop="youTubeLink"]');
 
     if (youtubeLink) {
