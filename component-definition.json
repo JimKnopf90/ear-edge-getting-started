@@ -154,11 +154,7 @@
                 "template": {
                   "name": "Article Center",
                   "model": "article-center",
-                  "imageAlt": "Biff Tannen",
-                  "link": "https://www.adobe.com",
-                  "linkTitle": "Navigate to adobe.com",
-                  "linkText": "adobe.com",
-                  "linkType": "primary"    
+                  "articleImageAlt": "Biff Tannen"                
                 }
               }
             }
