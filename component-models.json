@@ -464,9 +464,14 @@
         "label": "Text"
       },
       {
-        "component": "carousel",
+        "component": "text",
         "name": "mTeaserLink",
-        "label": "Karo link"
+        "label": "Link"
+      },
+      {
+        "component": "text",
+        "name": "mTeaserLinkText",
+        "label": "Link Text"
       }
     ]
   },
