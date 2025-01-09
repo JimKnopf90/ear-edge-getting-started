@@ -280,6 +280,21 @@
               }
             }
           }
+        },
+        {
+          "title": "Teaser M Item",
+          "id": "teaser-m-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Teaser M Item",
+                  "model": "teaser-m-item"
+                }
+              }
+            }
+          }
         }
       ]
     }
