@@ -1,15 +1,14 @@
-
 export default function decorate(block) {
+    const divs = Array.from(block.children);
 
-    const divs = block.children;
-
-    for (let i = 1; i < divs.length; i++) {
-        const originalDiv = divs[i];
-
+    if (divs.length > 1) {
         const wrapperDiv = document.createElement('div');
         wrapperDiv.classList.add('teaser-m-wrapper');
 
-        originalDiv.parentNode.insertBefore(wrapperDiv, originalDiv);
-        wrapperDiv.appendChild(originalDiv);
+        for (let i = 1; i < divs.length; i++) {
+            wrapperDiv.appendChild(divs[i]);
+        }
+        
+        divs[0].parentNode.insertBefore(wrapperDiv, divs[1]);
     }
 }
