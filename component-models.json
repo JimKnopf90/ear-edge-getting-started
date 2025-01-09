@@ -439,6 +439,16 @@
     "fields": [
       {
         "component": "text",
+        "name": "heading",
+        "label": "Heading"
+      }      
+    ]
+  },
+  {
+    "id": "teaser-m-item",
+    "fields": [
+      {
+        "component": "text",
         "name": "mTeaserHeader",
         "label": "Header"
       },
