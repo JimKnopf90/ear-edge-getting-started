@@ -267,7 +267,8 @@
                 "template": {
                   "name": "Teaser M",
                   "model": "teaser-m",
-                  "filter": "teaser-m"            
+                  "filter": "teaser-m",
+                  "heading": "<p>Explore History - essential data to learn about the important moments in the history of the World Bank while discovering the gems of the World Bank Group Archives</p>"          
                 }
               }
             }
