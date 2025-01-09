@@ -67,7 +67,7 @@
   {
     "id": "teaser-m",
     "components": [
-      "teaser-m-item"
+      "cards"
     ]
   }
 ]
