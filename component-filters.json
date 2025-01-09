@@ -56,5 +56,11 @@
       "button",
       "title"
     ]
+  },
+  {
+    "id": "teaser-m",
+    "components": [
+      "title"
+    ]
   }
 ]
