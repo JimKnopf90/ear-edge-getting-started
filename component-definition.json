@@ -253,7 +253,8 @@
                     "link": "https://foo.com/"
                   },
                   "item_1": {
-                    "model": "linked-icon""image": "/content/dam/partners/bar.png",
+                    "model": "linked-icon",
+                    "image": "/content/dam/partners/bar.png",
                     "imageAlt": "Icon of Bar",
                     "link": "https://bar.com"
                   }
