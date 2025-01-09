@@ -1,8 +1,13 @@
 .teaser-m-wrapper {
-   text-align: center;
-  }
+    text-align: center;
+}
 
-  .teaser-m-item-wrapper {
-    display: flex;
-    gap: 10px;
-  }
+.teaser-m-item-wrapper {
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.teaser-m-item {  
+    max-width: 300px;
+}

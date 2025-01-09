@@ -10,6 +10,7 @@ export default function decorate(block) {
     h2Header.innerHTML = header.innerHTML;
 
     for (let i = 1; i < divs.length; i++) {
+        divs[i].classList.add('teaser-m-item');
         wrapperDiv.appendChild(divs[i]);
     }
     
