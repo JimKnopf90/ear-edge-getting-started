@@ -1,4 +1,8 @@
 .teaser-m-wrapper {
+   text-align: center;
+  }
+
+  .teaser-m-item-wrapper {
     display: flex;
     gap: 10px;
   }
