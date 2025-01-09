@@ -39,7 +39,8 @@
       "article-center",
       "header-text",
       "article-image-text",
-      "teaser-m"
+      "teaser-m",
+      "carousel"
      ]
   },  
   {
@@ -56,5 +57,11 @@
       "button",
       "title"
     ]
-  }
+  },
+  {
+    "id": "carousel",
+    "components": [
+      "card"
+    ]
+  },
 ]

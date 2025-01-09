@@ -285,7 +285,7 @@
             "name": "articleTitle",
             "label": "Title",
             "value": ""
-          },          
+          },
           {
             "component": "richtext",
             "name": "articleText",
@@ -365,7 +365,14 @@
         "label": "Hidden text field",
         "name": "hidden-text",
         "valueType": "string",
-        "condition": { "===": [{"var" : "reveal"}, true] }
+        "condition": {
+          "===": [
+            {
+              "var": "reveal"
+            },
+            true
+          ]
+        }
       }
     ]
   },
@@ -466,7 +473,39 @@
         "component": "richtext",
         "name": "mTeaserText2",
         "label": "Text 2"
-      }  
+      }
+    ]
+  },
+  {
+    "id": "carousel",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "title",
+        "value": "",
+        "label": "Title",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "description",
+        "value": "",
+        "label": "Description",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "name": "button",
+        "value": "",
+        "label": "Additional Text",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "card",
+        "value": ""
+      }
     ]
   }
 ]
