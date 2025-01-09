@@ -11,6 +11,7 @@ export default function decorate(block) {
 
     for (let i = 1; i < divs.length; i++) {
         divs[i].classList.add('teaser-m-item');
+        divs[i].children[1].classList.add('teaser-m-item-title');
         wrapperDiv.appendChild(divs[i]);
     }
     

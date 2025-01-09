@@ -10,5 +10,11 @@
 }
 
 .teaser-m-item {  
-    max-width: 300px;
+    max-width: 400px;
+}
+
+.teaser-m-item-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
 }

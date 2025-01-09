@@ -462,7 +462,12 @@
         "component": "richtext",
         "name": "mTeaserText",
         "label": "Text"
-      }    
+      },
+      {
+        "component": "carousel",
+        "name": "mTeaserLink",
+        "label": "Karo link"
+      }
     ]
   },
   {
