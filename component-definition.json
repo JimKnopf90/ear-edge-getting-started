@@ -312,9 +312,10 @@
                     "title": "Hallo"
                   },
                   "item2": {
-                    "resourceType": "core/franklin/components/block/v1/block",
-                    "name": "Article Image Text",
-                    "model": "article-image-text"
+                    "sling:resourceType": "core/franklin/components/block/v1/block/item",
+                    "name": "Carousel",
+                    "model": "carousel",
+                    "title": "Hallo"
                   }
                 }
               }
