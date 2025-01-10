@@ -205,7 +205,7 @@
                   "name": "Jumo Columns",
                   "columns": "2",
                   "rows": "1",
-                  "model": "jumoColumns"
+                  "model": "jumo-columns"
                 }
               }
             }
