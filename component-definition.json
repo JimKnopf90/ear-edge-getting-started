@@ -196,7 +196,7 @@
         },
         {
           "title": "Jumo Columns",
-          "id": "jumoColumns",
+          "id": "jumo-columns",
           "plugins": {
             "xwalk": {
               "page": {
