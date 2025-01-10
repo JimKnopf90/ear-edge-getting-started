@@ -170,6 +170,18 @@
     ]
   },
   {
+    "id": "jumo-test",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "columns",
+        "value": "",
+        "label": "Columns"
+      }
+    ]
+  },
+  {
     "id": "jumo-columns",
     "fields": [
       {
