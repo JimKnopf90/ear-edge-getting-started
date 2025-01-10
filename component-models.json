@@ -112,6 +112,26 @@
     ]
   },
   {
+    "id": "jumoSection",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "backgroundColor",
+        "label": "Background",
+        "options": [
+          {
+            "name": "Primary",
+            "value": "primary"
+          },
+          {
+            "name": "Secondary",
+            "value": "secondary"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {

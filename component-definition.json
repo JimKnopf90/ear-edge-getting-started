@@ -79,6 +79,26 @@
       ]
     },
     {
+      "title": "Jumo Sections",
+      "id": "jumoSections",
+      "components": [
+        {
+          "title": "Jumo Section",
+          "id": "jumoSection",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/section/v1/section",
+                "template": {
+                  "model": "section"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
       "title": "Blocks",
       "id": "blocks",
       "components": [
