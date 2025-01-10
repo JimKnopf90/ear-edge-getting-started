@@ -175,14 +175,14 @@
       {
         "component": "text",
         "valueType": "number",
-        "name": "columns",
+        "name": "jumoColumns",
         "value": "",
         "label": "Columns"
       },
       {
         "component": "text",
         "valueType": "number",
-        "name": "rows",
+        "name": "jumoRows",
         "value": "",
         "label": "Rows"
       },
