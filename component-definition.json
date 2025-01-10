@@ -304,8 +304,9 @@
                 "template": {
                   "name": "Jumo Test",
                   "model": "jumo-columns",
-                  "jumoRows": "1",
-                  "jumoColumns": "2"             
+                  "columns": "2",
+                  "rows": "1"
+                          
                 }
               }
             }
