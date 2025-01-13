@@ -66,6 +66,12 @@
     "components": [
       "teaser-m-item"
     ]
+  },
+  {
+    "id": "teaser-m-item",
+    "components": [
+      "text"
+    ]
   }
 
 

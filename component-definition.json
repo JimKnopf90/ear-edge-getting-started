@@ -364,7 +364,8 @@
                 "resourceType": "core/franklin/components/block/v1/block/item",
                 "template": {
                   "name": "Teaser M Item",
-                  "model": "teaser-m-item"
+                  "model": "teaser-m-item",
+                  "filter": "teaser-m-item"
                 }
               }
             }
