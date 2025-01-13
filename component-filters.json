@@ -68,9 +68,11 @@
     ]
   },
   {
-    "id": "teaser-m-item",
+    "id": "hero",
     "components": [
-      "text"
+      "text",
+      "title",
+      "teaser-m"
     ]
   }
 
