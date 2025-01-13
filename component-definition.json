@@ -334,6 +334,7 @@
                   "name": "Teaser M",
                   "model": "teaser-m",
                   "filter": "teaser-m",
+                  "limit": 3,
                   "heading": "Weiterlesen",
                   "item1": {
                     "sling:resourceType": "core/franklin/components/block/v1/block/item",
