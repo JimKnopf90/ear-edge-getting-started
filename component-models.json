@@ -561,7 +561,8 @@
       {
         "component": "text",
         "name": "teaserHeader",
-        "label": "Header"
+        "label": "Header",
+        "value": "Mein Titel"
       },
       {
         "component": "reference",
