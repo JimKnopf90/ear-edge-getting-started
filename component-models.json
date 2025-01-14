@@ -589,6 +589,29 @@
         "component": "text",
         "name": "teaserLinkText",
         "label": "Link Text"
+      },
+      {
+        "component": "select",
+        "name": "size",
+        "label": "Variant",
+        "options": [
+          {
+            "name": "S",
+            "value": "s"
+          },
+          {
+            "name": "M",
+            "value": "m"
+          },
+          {
+            "name": "L",
+            "value": "l"
+          },
+          {
+            "name": "XL",
+            "value": "xl"
+          }
+        ]
       }
     ]
   },
