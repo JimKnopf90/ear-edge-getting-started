@@ -534,6 +534,42 @@
     ]
   },
   {
+    "id": "teaser",
+    "fields": [
+      {
+        "component": "text",
+        "name": "teaserHeader",
+        "label": "Header"
+      },
+      {
+        "component": "reference",
+        "name": "mTeaserImage",
+        "label": "Image",
+        "multi": false
+      },      
+      {
+        "component": "text",
+        "name": "mTeaserTitle",
+        "label": "Title"
+      },
+      {
+        "component": "richtext",
+        "name": "mTeaserText",
+        "label": "Text"
+      },
+      {
+        "component": "text",
+        "name": "mTeaserLink",
+        "label": "Link"
+      },
+      {
+        "component": "text",
+        "name": "mTeaserLinkText",
+        "label": "Link Text"
+      }
+    ]
+  },
+  {
     "id": "carousel",
     "fields": [
       {
