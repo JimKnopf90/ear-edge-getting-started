@@ -593,6 +593,7 @@
         "component": "select",
         "name": "size",
         "label": "Variant",
+        "defaultValue": "m",
         "options": [
           {
             "name": "S",
