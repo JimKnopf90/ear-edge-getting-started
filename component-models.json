@@ -128,13 +128,7 @@
             "value": "secondary"
           }
         ]
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "jumoSectionHeadline",
-        "label": "Headline"
-      }
+      }    
     ]
   },
   {
