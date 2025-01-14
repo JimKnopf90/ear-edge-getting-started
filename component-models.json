@@ -116,6 +116,21 @@
     "fields": [
       {
         "component": "multiselect",
+        "name": "backgroundType",
+        "label": "Background Type",
+        "options": [
+          {
+            "name": "Color",
+            "value": "color"
+          },
+          {
+            "name": "Color gradient",
+            "value": "colorGradient"
+          }
+        ]
+      },
+      {
+        "component": "multiselect",
         "name": "backgroundColor",
         "label": "Background",
         "options": [
@@ -128,7 +143,14 @@
             "value": "secondary"
           }
         ]
-      }    
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Background Image",
+        "multi": false
+      }
     ]
   },
   {
@@ -499,7 +521,7 @@
         "component": "text",
         "name": "heading",
         "label": "Heading"
-      }      
+      }
     ]
   },
   {
@@ -510,7 +532,7 @@
         "name": "mTeaserImage",
         "label": "Image",
         "multi": false
-      },      
+      },
       {
         "component": "text",
         "name": "mTeaserTitle",
@@ -546,7 +568,7 @@
         "name": "teaserImage",
         "label": "Image",
         "multi": false
-      },      
+      },
       {
         "component": "text",
         "name": "teaserTitle",
