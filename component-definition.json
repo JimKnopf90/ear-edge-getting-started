@@ -371,9 +371,15 @@
               }
             }
           }
-        },
+        }
+      ]
+    },
+    {
+      "title": "Teaser",
+      "id": "jumo",
+      "components": [
         {
-          "title": "Teaser",
+          "title": "Teaser M",
           "id": "teaser",
           "plugins": {
             "xwalk": {
