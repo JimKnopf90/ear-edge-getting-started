@@ -112,7 +112,7 @@
     ]
   },
   {
-    "id": "jumoSection",
+    "id": "jumo-section",
     "fields": [
       {
         "component": "multiselect",
