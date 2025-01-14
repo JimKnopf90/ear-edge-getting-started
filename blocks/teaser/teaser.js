@@ -1,6 +1,6 @@
 export default function decorate(block) {
     const divs = Array.from(block.children);
-
+    console.log(divs);
     const wrapperDiv = document.createElement('div');
     wrapperDiv.classList.add('teaser-wrapper');
 
