@@ -543,28 +543,28 @@
       },
       {
         "component": "reference",
-        "name": "mTeaserImage",
+        "name": "teaserImage",
         "label": "Image",
         "multi": false
       },      
       {
         "component": "text",
-        "name": "mTeaserTitle",
+        "name": "teaserTitle",
         "label": "Title"
       },
       {
         "component": "richtext",
-        "name": "mTeaserText",
+        "name": "teaserText",
         "label": "Text"
       },
       {
         "component": "text",
-        "name": "mTeaserLink",
+        "name": "teaserLink",
         "label": "Link"
       },
       {
         "component": "text",
-        "name": "mTeaserLinkText",
+        "name": "teaserLinkText",
         "label": "Link Text"
       }
     ]
