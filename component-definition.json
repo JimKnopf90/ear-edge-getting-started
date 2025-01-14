@@ -84,13 +84,13 @@
       "components": [
         {
           "title": "Jumo Section",
-          "id": "jumoSection",
+          "id": "jumo-Section",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/section/v1/section",
                 "template": {
-                  "model": "jumoSection"
+                  "model": "jumo-Section"
                 }
               }
             }
