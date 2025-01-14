@@ -84,7 +84,7 @@
       "components": [
         {
           "title": "Jumo Section",
-          "id": "jumo-Section",
+          "id": "jumo-section",
           "plugins": {
             "xwalk": {
               "page": {
