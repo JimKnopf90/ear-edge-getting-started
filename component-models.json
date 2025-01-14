@@ -616,6 +616,66 @@
     ]
   },
   {
+    "id": "new-teaser",
+    "fields": [
+      {
+        "component": "text",
+        "name": "teaserHeader",
+        "label": "Header"       
+      },
+      {
+        "component": "reference",
+        "name": "teaserImage",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "teaserTitle",
+        "label": "Title"
+      },
+      {
+        "component": "richtext",
+        "name": "teaserText",
+        "label": "Text"
+      },
+      {
+        "component": "text",
+        "name": "teaserLink",
+        "label": "Link"
+      },
+      {
+        "component": "text",
+        "name": "teaserLinkText",
+        "label": "Link Text"
+      },
+      {
+        "component": "select",
+        "name": "size",
+        "label": "Variant",
+        "value": "m",
+        "options": [
+          {
+            "name": "S",
+            "value": "s"
+          },
+          {
+            "name": "M",
+            "value": "m"
+          },
+          {
+            "name": "L",
+            "value": "l"
+          },
+          {
+            "name": "XL",
+            "value": "xl"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "carousel",
     "fields": [
       {
