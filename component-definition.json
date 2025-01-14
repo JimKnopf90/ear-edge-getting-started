@@ -80,7 +80,7 @@
     },
     {
       "title": "Jumo Sections",
-      "id": "jumoSections",
+      "id": "jumo-sections",
       "components": [
         {
           "title": "Jumo Section",
@@ -90,7 +90,7 @@
               "page": {
                 "resourceType": "core/franklin/components/section/v1/section",
                 "template": {
-                  "model": "jumo-Section"
+                  "model": "jumo-section"
                 }
               }
             }
