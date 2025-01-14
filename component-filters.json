@@ -2,7 +2,8 @@
   {
     "id": "main",
     "components": [
-      "sect-Section"
+      "section",
+      "jumoSection"
     ]
   },
   {
