@@ -112,7 +112,7 @@
     ]
   },
   {
-    "id": "jumo-section",
+    "id": "jumoSection",
     "fields": [
       {
         "component": "multiselect",
@@ -148,7 +148,7 @@
         "component": "reference",
         "valueType": "string",
         "name": "image",
-        "label": "Background Image",
+        "label": "Backgroud Image",
         "multi": false
       }
     ]
